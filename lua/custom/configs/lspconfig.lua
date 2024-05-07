@@ -18,8 +18,8 @@ end
 
 
 -- defining cmd property for omnisharp
-local pid = vim.fn.getpid()
-local omnisharp_bin = "/path/to/your/omnisharp-roslyn/OmniSharp"
-require'lspconfig'.omnisharp.setup{
-  cmd = { omnisharp_bin, "--languageserver" , "--hostPID", tostring(pid) }
-}
+-- local pid = vim.fn.getpid()
+-- local omnisharp_bin = "/path/to/your/omnisharp-roslyn/OmniSharp"
+-- require'lspconfig'.omnisharp.setup{
+--   cmd = { omnisharp_bin, "--languageserver" , "--hostPID", tostring(pid) }
+-- }
